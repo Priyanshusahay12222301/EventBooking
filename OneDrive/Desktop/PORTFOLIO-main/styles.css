@@ -346,6 +346,62 @@ nav {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.contact__form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+}
+
+.contact__form h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.contact__form .form-control {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #333;
+  width: 100%;
+}
+
+.contact__form button[type="submit"] {
+  padding: 12px 20px;
+  border: none;
+  background-color: #b711e0;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.social-handles {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.social-handles a {
+  color: var(--white);
+  background: transparent;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.footer {
+  padding: 2rem 1rem;
+  text-align: center;
+  color: var(--extra-light);
+  border-top: 1px solid rgba(255,255,255,0.04);
+}
+
 .footer {
   padding: 1rem;
   font-size: 0.9rem;
