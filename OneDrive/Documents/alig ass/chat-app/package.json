@@ -1,0 +1,48 @@
+{
+  "name": "fun-friday-chat",
+  "version": "1.0.0",
+  "description": "A real-time chat application with anonymous messaging support",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "setup-db": "mysql -u root -p < config/database.sql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "websockets",
+    "realtime",
+    "nodejs",
+    "express",
+    "mysql",
+    "socket.io"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4",
+    "mysql2": "^3.6.5",
+    "bcryptjs": "^2.4.3",
+    "express-session": "^1.17.3",
+    "express-mysql-session": "^3.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/fun-friday-chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/fun-friday-chat/issues"
+  },
+  "homepage": "https://github.com/yourusername/fun-friday-chat#readme"
+}
