@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "event-booking-system",
+  "name": "eventbooking-system",
   "builds": [
     {
       "src": "frontend/package.json",

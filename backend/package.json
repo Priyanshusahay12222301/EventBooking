@@ -1,5 +1,5 @@
 {
-  "name": "event-booking-backend",
+  "name": "eventbooking-backend",
   "version": "0.1.0",
   "description": "Backend for Event Booking System (Express + MongoDB)",
   "main": "server.js",
