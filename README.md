@@ -35,5 +35,4 @@ Notes
 - Add your MongoDB connection string to `backend/.env` before starting the backend.
 - This scaffold focuses on structure and minimal functionality — extend with validation, testing, CI, and deployment steps as needed.
 =======
-# javaFullStack_project
->>>>>>> cd4117ed50fa07961ffabcbc1204856b68cb3ceb
+
