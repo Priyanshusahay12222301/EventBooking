@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Event Booking System (React + Node.js + MongoDB)
 
 This repository contains a scaffold for an Event Booking System with a backend (Express + MongoDB) and a frontend (React + Vite).
@@ -33,3 +34,6 @@ Notes
 - The frontend uses relative `/api` calls. During development you can run the backend on port 5000 and configure a proxy or run both on the same origin.
 - Add your MongoDB connection string to `backend/.env` before starting the backend.
 - This scaffold focuses on structure and minimal functionality — extend with validation, testing, CI, and deployment steps as needed.
+=======
+# javaFullStack_project
+>>>>>>> cd4117ed50fa07961ffabcbc1204856b68cb3ceb
